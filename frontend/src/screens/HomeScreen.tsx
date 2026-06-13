@@ -12,7 +12,7 @@ export default function HomeScreen() {
       const data = await response.json();
       setVibe(`${data.emoji ?? '✨'} ${data.message}`);
     } catch (error) {
-      setVibe('⚠️ Backend is not running yet. Start it with npm run dev.');
+      setVibe('⚠️ Backend is not running yet. Start it with dotnet run or npm run dev.');
     }
   };
 
