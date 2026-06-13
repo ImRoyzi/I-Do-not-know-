@@ -1,0 +1,10 @@
+{
+  "name": "apptest",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
