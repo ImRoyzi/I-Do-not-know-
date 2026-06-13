@@ -3,7 +3,7 @@
 This workspace contains:
 
 - frontend/ — Expo React Native app
-- backend/ — Express API server
+- backend/ — C# ASP.NET Core API server
 
 ## Quick start
 
@@ -12,6 +12,5 @@ Frontend:
   npm start
 
 Backend:
-  cd backend
-  npm install
-  npm run dev
+  cd backend/Backend.Api
+  dotnet run
